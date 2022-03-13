@@ -6,7 +6,10 @@
 	* The output of the script should provide the user a line to input their choice for the game and then should output the answer for the computer opponent.
 	
 # Running the Script:
+	* To run the script i would recommend opening up visual studio code creating a new file, inputting the script and then saving the file as a python file.
+		* This will allow for the script tp be run correctly within visual stuido code.
 	* All that is required to run the script is to hit the run button in visual studio code.
+	* Or by going to the run drop down menu and select "Run without Debugging" 
 	
 	
 # Citations for my Code:
