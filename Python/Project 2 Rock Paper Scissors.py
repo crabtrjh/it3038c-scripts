@@ -1,13 +1,10 @@
 # The mapping between moves and numbers
 game_map = {0:"rock", 1:"paper", 2:"scissors"}
  
-# Win-lose matrix for traditional game
-rps_table = [[-1, 1, 0], [1, -1, 2], [0, 2, -1]]
- 
 
 import random
 
-# Player Input
+# Code for player input
 inp = input("Enter your move : ")
  
 if inp.lower() == "help":
@@ -30,7 +27,7 @@ else:
     
 
 
-# Get the computer move randomly
+# Randomize Computer Movement 
 comp_move = random.randint(0, 2)
  
 # Print the computer move
