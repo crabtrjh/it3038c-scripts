@@ -91,12 +91,12 @@ if __name__ == '__main__':
     # The mapping between moves and numbers
     game_map = {0:"rock", 1:"paper", 2:"scissors"}
  
-    # Win-lose matrix for traditional game
+    # Win-lose matrix
     rps_table = [[-1, 1, 0], [1, -1, 2], [0, 2, -1]]
   
     name = input("Enter your name: ")
  
-    # The GAME LOOP
+    # Code to loop the game to make it replayable
     while True:
  
         # The Game Menu
@@ -114,7 +114,7 @@ if __name__ == '__main__':
             print("Wrong Choice")   
             continue
  
-        # Play the traditional version of the game
+        # Play the game
         if choice == 1:
             rps()
  
